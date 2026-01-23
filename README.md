@@ -89,6 +89,11 @@ pnpm run test:e2e
 4. For UI mode (useful for debugging):
 
 ```bash
+# Terminal 1
+pnpm run anvil
+# Terminal 2
+pnpm run anvil:two
+# Terminal 3
 pnpm run test:e2e:ui
 ```
 
