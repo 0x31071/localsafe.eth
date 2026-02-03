@@ -22,6 +22,8 @@ Clone the repository and build the container securely:
 ```
 git clone https://github.com/0x31071/localsafe.eth
 cd localsafe.eth
+# Add a .env file with NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=<Check vault>
+
 chmod +x build-secure.sh
 ./build-secure.sh
 
