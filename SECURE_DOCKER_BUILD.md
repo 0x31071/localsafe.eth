@@ -80,7 +80,7 @@ docker run -p 30003:30003 localsafe-eth:test &
 ```
 Output:
 
-# dist-secure/
+# dist-package/
 # ├── localsafe-eth-latest.tar.gz
 # ├── localsafe-eth-latest.tar.gz.sha256
 # ├── localsafe-eth-latest.tar.gz.sha512
@@ -183,8 +183,8 @@ docker run -p 30003:30003 localsafe-eth:latest
 
 ### Issues
 
-1. Check `dist-secure/build.log` for build errors
-2. Check `dist-secure/vulnerability-scan.txt` for security issues
+1. Check `dist-package/build.log` for build errors
+2. Check `dist-package/vulnerability-scan.txt` for security issues
 3. Verify all dependencies are up to date
 
 ## License
