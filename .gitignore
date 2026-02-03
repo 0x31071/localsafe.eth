@@ -21,7 +21,8 @@
 
 # production
 /build
-
+dist-secure/
+dist-package/
 # misc
 .DS_Store
 *.pem
