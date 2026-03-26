@@ -17,19 +17,22 @@ The system provides:
 
 ## Quick Start
 
-Clone the repository and build the container securely:
+Clone the repository:
 
 ```
 git clone https://github.com/0x31071/localsafe.eth
 cd localsafe.eth
+```
+
+Secure built: [**Recommended**]
+```
 chmod +x build-secure.sh
 ./build-secure.sh
-
 docker run -p 30003:30003 localsafe-eth:latest &
 # Open http://localhost:30003
 ```
 
-Fast (**INSECURE**) built: **Only for development and testing**
+Fast (**insecure**) built: [**Only for development and testing**]
 
 ```
 docker build --progress=plain --no-cache -t localsafe-eth:test .
